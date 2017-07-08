@@ -165,4 +165,5 @@ seniority(Persona, Seniority) :- personas(Persona), findall(Puntos, puntajeDeTar
 %Personas = santiago.
 %?- not(seniority(julieta,6)).
 %true.
-
+%?- seniority(julieta, Seniority).
+%Seniority = 7.
